@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Video Embed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-03 12:34+0100\n"
+"PO-Revision-Date: 2015-06-03 12:43+0100\n"
+"Last-Translator: Alex <alex.sani@municipio.re.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-simple-video-embed-admin.php:107
+msgid "Simple Video Embed Options"
+msgstr "Simple Video Embed"
+
+#: admin/class-simple-video-embed-admin.php:107
+msgid "Simple Video Embed"
+msgstr "Simple Video Embed"
+
+#: admin/class-simple-video-embed-admin.php:120
+#: admin/class-simple-video-embed-admin.php:143
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina"
+
+#: admin/class-simple-video-embed-admin.php:203
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/class-simple-video-embed-admin.php:204
+msgid "Donate"
+msgstr "Fai una donazione"
+
+#: admin/class-simple-video-embed-admin.php:205
+msgid "Support"
+msgstr "Supporto"
+
+#: admin/translations-mce.php:17
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/translations-mce.php:18
+msgid "Video"
+msgstr "Video"
+
+#: admin/translations-mce.php:19
+msgid "Playlist"
+msgstr "Playlist"
+
+#: admin/translations-mce.php:20
+msgid "Url or ID"
+msgstr "Url o Id"
+
+#: admin/translations-mce.php:21
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: admin/translations-mce.php:22
+msgid "Loop"
+msgstr "Loop"
+
+#: admin/translations-mce.php:23
+msgid "Playlist template"
+msgstr "Playlist template"
+
+#: admin/translations-mce.php:24
+msgid "Video player controls"
+msgstr "Controlli player video"
+
+#: admin/translations-mce.php:25
+msgid "Hide"
+msgstr "Nascosto"
+
+#: admin/translations-mce.php:26
+msgid "Display immediately"
+msgstr "Visualizza subito"
+
+#: admin/translations-mce.php:27
+msgid "Display after video played"
+msgstr "Visualizza dopo l'avvio del video"
+
+#: admin/translations-mce.php:28
+msgid "Full screen"
+msgstr "Full screen"
+
+#: admin/translations-mce.php:29
+msgid "Show thumb video title"
+msgstr "Visualizza i titoli dei video"
+
+#: admin/translations-mce.php:31
+msgid "No thumbnails"
+msgstr "Nessun Thumbnails"
+
+#: admin/translations-mce.php:32
+msgid "Video Slider"
+msgstr "Video Slider"
+
+#: admin/translations-mce.php:33
+msgid "Thumbnails slider"
+msgstr "Thumbnails slider"
+
+#: admin/translations-mce.php:34
+msgid "Thumbnails in columns"
+msgstr "Thumbnails in colonna"
+
+#: admin/translations-mce.php:36
+msgid "Please fill popup required fields."
+msgstr "Compila i campi obbligatori."
+
+#: admin/translations-mce.php:37
+msgid "Google Public API Key is invalid!"
+msgstr "Google Public API Key non valida!"
+
+#: admin/translations-mce.php:38
+msgid "Bad Request, missing required parameter!"
+msgstr "Richiesta errata, parametro obbligatorio non passato."
+
+#: admin/translations-mce.php:39
+msgid "Bad Request, unknown parameter!"
+msgstr "Richiesta errata, parametro non riconosciuto!"
+
+#: admin/translations-mce.php:40
+msgid "Cannot contact "
+msgstr "Non riesco a contattare"
+
+#: admin/translations-mce.php:41
+msgid "not found!"
+msgstr "non trovato!"
+
+#: admin/translations-mce.php:42
+msgid "You have to configure Simple Video Embed!"
+msgstr "Devi configurare Simple Video Embed!"
+
+#: admin/partials/simple-video-embed-admin-display.php:45
+msgid "Google Public Api Key (V3)"
+msgstr "Google Public Api Key (V3)"
+
+#: admin/partials/simple-video-embed-admin-display.php:63
+msgid "Default thumbnail columns number"
+msgstr "Numero colonne di default"
+
+#: admin/partials/simple-video-embed-admin-display.php:74
+msgid "Carousel"
+msgstr "Slider"
+
+#: admin/partials/simple-video-embed-admin-display.php:78
+msgid "Video carousel default height"
+msgstr "Altezza di default dello Slider"
+
+#: admin/partials/simple-video-embed-admin-display.php:87
+msgid "Carousel left arrow (html enabled)"
+msgstr "Pulsante sinistro slider (html abilitato)"
+
+#: admin/partials/simple-video-embed-admin-display.php:96
+msgid "Carousel right arrow (html enabled)"
+msgstr "Pulsante destro slider (html abilitato)"
+
+#: admin/partials/simple-video-embed-admin-display.php:107
+msgid "Save"
+msgstr "Salva"

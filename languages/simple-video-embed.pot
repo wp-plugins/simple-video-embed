@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Video Embed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-03 12:34+0100\n"
+"PO-Revision-Date: 2015-06-03 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: Simple Video Embed <almalerik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-simple-video-embed-admin.php:107
+msgid "Simple Video Embed Options"
+msgstr ""
+
+#: admin/class-simple-video-embed-admin.php:107
+msgid "Simple Video Embed"
+msgstr ""
+
+#: admin/class-simple-video-embed-admin.php:120
+#: admin/class-simple-video-embed-admin.php:143
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/class-simple-video-embed-admin.php:203
+msgid "Settings"
+msgstr ""
+
+#: admin/class-simple-video-embed-admin.php:204
+msgid "Donate"
+msgstr ""
+
+#: admin/class-simple-video-embed-admin.php:205
+msgid "Support"
+msgstr ""
+
+#: admin/translations-mce.php:17
+msgid "Type"
+msgstr ""
+
+#: admin/translations-mce.php:18
+msgid "Video"
+msgstr ""
+
+#: admin/translations-mce.php:19
+msgid "Playlist"
+msgstr ""
+
+#: admin/translations-mce.php:20
+msgid "Url or ID"
+msgstr ""
+
+#: admin/translations-mce.php:21
+msgid "Autoplay"
+msgstr ""
+
+#: admin/translations-mce.php:22
+msgid "Loop"
+msgstr ""
+
+#: admin/translations-mce.php:23
+msgid "Playlist template"
+msgstr ""
+
+#: admin/translations-mce.php:24
+msgid "Video player controls"
+msgstr ""
+
+#: admin/translations-mce.php:25
+msgid "Hide"
+msgstr ""
+
+#: admin/translations-mce.php:26
+msgid "Display immediately"
+msgstr ""
+
+#: admin/translations-mce.php:27
+msgid "Display after video played"
+msgstr ""
+
+#: admin/translations-mce.php:28
+msgid "Full screen"
+msgstr ""
+
+#: admin/translations-mce.php:29
+msgid "Show thumb video title"
+msgstr ""
+
+#: admin/translations-mce.php:31
+msgid "No thumbnails"
+msgstr ""
+
+#: admin/translations-mce.php:32
+msgid "Video Slider"
+msgstr ""
+
+#: admin/translations-mce.php:33
+msgid "Thumbnails slider"
+msgstr ""
+
+#: admin/translations-mce.php:34
+msgid "Thumbnails in columns"
+msgstr ""
+
+#: admin/translations-mce.php:36
+msgid "Please fill popup required fields."
+msgstr ""
+
+#: admin/translations-mce.php:37
+msgid "Google Public API Key is invalid!"
+msgstr ""
+
+#: admin/translations-mce.php:38
+msgid "Bad Request, missing required parameter!"
+msgstr ""
+
+#: admin/translations-mce.php:39
+msgid "Bad Request, unknown parameter!"
+msgstr ""
+
+#: admin/translations-mce.php:40
+msgid "Cannot contact "
+msgstr ""
+
+#: admin/translations-mce.php:41
+msgid "not found!"
+msgstr ""
+
+#: admin/translations-mce.php:42
+msgid "You have to configure Simple Video Embed!"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:45
+msgid "Google Public Api Key (V3)"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:63
+msgid "Default thumbnail columns number"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:74
+msgid "Carousel"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:78
+msgid "Video carousel default height"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:87
+msgid "Carousel left arrow (html enabled)"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:96
+msgid "Carousel right arrow (html enabled)"
+msgstr ""
+
+#: admin/partials/simple-video-embed-admin-display.php:107
+msgid "Save"
+msgstr ""
+
