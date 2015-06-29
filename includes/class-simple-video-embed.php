@@ -77,7 +77,7 @@ class Simple_Video_Embed {
 	 */
 	public function __construct( $plugin_basename ) {
 		$this->plugin_name = 'simple-video-embed';
-		$this->version = '1.0.1';
+		$this->version = '1.0.2';
 		
 		$this->plugin_basename = $plugin_basename;
 		

@@ -60,15 +60,15 @@ class Sve_Youtube {
 	 * automatically hide after a video begins playing.
 	 * Supported values are:
 	 *
-	 * 2 (default) – If the player has a 16:9 or 4:3 aspect ratio,
+	 * 2 (default) ï¿½ If the player has a 16:9 or 4:3 aspect ratio,
 	 * the video progress bar and player controls display or hide
 	 * automatically. Otherwise, those controls are visible
 	 * throughout the video.
 	 *
-	 * 1 – Regardless of the player's dimensions, the video progress
+	 * 1 ï¿½ Regardless of the player's dimensions, the video progress
 	 * bar and player controls display or hide automatically.
 	 *
-	 * 0 – Regardless of the player's dimensions, the video progress
+	 * 0 ï¿½ Regardless of the player's dimensions, the video progress
 	 * bar and player controls are visible throughout the video.
 	 *
 	 * @since 1.0.0
@@ -97,14 +97,14 @@ class Sve_Youtube {
 	 * when the controls display in the player as well as when the
 	 * player will load. Supported values are:
 	 *
-	 * controls=0 – Player controls do not display in the player.
+	 * controls=0 ï¿½ Player controls do not display in the player.
 	 * For IFrame embeds, the Flash player loads immediately.
 	 *
-	 * controls=1 (default) – Player controls display in the player.
+	 * controls=1 (default) ï¿½ Player controls display in the player.
 	 * For IFrame embeds, the controls display immediately and the
 	 * Flash player also loads immediately.
 	 *
-	 * controls=2 – Player controls display in the player.
+	 * controls=2 ï¿½ Player controls display in the player.
 	 * For IFrame embeds, the controls display and the Flash player
 	 * loads after the user initiates the video playback.
 	 *
@@ -487,22 +487,28 @@ class Sve_Youtube {
 	 * @return string Fetched data
 	 */
 	private function get_url_contents($url) {
-		if (function_exists( 'file_get_contents' )) {
-			$result = @file_get_contents( $url );
+		
+		$result = wp_remote_get( $url, array( 'timeout' => 120, 'httpversion' => '1.1' ) );
+		
+		if ($result != '' && array_key_exists('body', $result)) {
+			$result = $result['body'];
+		} else {
+			if (function_exists( 'file_get_contents' )) {
+				$result = @file_get_contents( $url );
+			}
+			if ($result == '') {
+				$ch = curl_init();
+				$timeout = 30;
+				curl_setopt( $ch, CURLOPT_URL, $url );
+				curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+				curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1 );
+				curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
+				curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
+				curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, $timeout );
+				$result = curl_exec( $ch );
+				curl_close( $ch );
+			}		
 		}
-		if ($result == '') {
-			$ch = curl_init();
-			$timeout = 30;
-			curl_setopt( $ch, CURLOPT_URL, $url );
-			curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-			curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1 );
-			curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
-			curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
-			curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, $timeout );
-			$result = curl_exec( $ch );
-			curl_close( $ch );
-		}
-	
 		return $result;
 	}
 	
