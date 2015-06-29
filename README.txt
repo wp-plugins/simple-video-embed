@@ -4,7 +4,7 @@ Donate link: https://github.com/Almalerik
 Tags: video, video player, video gallery, shortcode, embed, mobile, responsive
 Requires at least: 4.0
 Tested up to: 4.2.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ Upcoming developments will support other video sources like Vimeo.
 4. Playlist with thumb carousel
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix php bug.
 
 = 1.0.0 =
 * First release.

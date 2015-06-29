@@ -46,7 +46,7 @@ $active_tab = isset( $_GET ['tab'] ) ? $_GET ['tab'] : 'general';
 					</th>
 					<td><input name="wpsve-youtube[google-public-key-v3]" type="text"
 						id="wpsve-google-public-key-v3"
-						value="<?php echo esc_attr( $option -> getYoutube()['google-public-key-v3'] ); ?>"
+						value="<?php $tmp=$option -> getYoutube(); echo esc_attr( $tmp['google-public-key-v3'] ); ?>"
 						class="regular-text"></td>
 				</tr>
 			</tbody>
@@ -64,7 +64,7 @@ $active_tab = isset( $_GET ['tab'] ) ? $_GET ['tab'] : 'general';
 					</td>
 					<td><input name="wpsve-main[thumb-columns-number]" type="text"
 						id="default-thumb-columns-number"
-						value="<?php echo esc_attr( $option -> getMain()['thumb-columns-number']); ?>"
+						value="<?php $tmp=$option -> getMain(); echo esc_attr( $tmp['thumb-columns-number']); ?>"
 						class="small-text"></td>
 				</tr>
 				<tr>
@@ -79,7 +79,7 @@ $active_tab = isset( $_GET ['tab'] ) ? $_GET ['tab'] : 'general';
 					</td>
 					<td><input name="wpsve-main[video-carousel-height]"
 						type="text" id="wpsve-video-carousel-height"
-						value="<?php echo esc_attr(  $option -> getMain()['video-carousel-height'] ); ?>"
+						value="<?php $tmp=$option -> getMain(); echo esc_attr( $tmp['video-carousel-height'] ); ?>"
 						class="small-text">px</td>
 				</tr>
 				<tr>
@@ -88,7 +88,7 @@ $active_tab = isset( $_GET ['tab'] ) ? $_GET ['tab'] : 'general';
 					</td>
 					<td><input name="wpsve-main[video-carousel-left-arrow]"
 						type="text" id="wpsve-video-carousel-left-arrow"
-						value="<?php echo esc_attr(  $option -> getMain()['video-carousel-left-arrow'] ); ?>"
+						value="<?php $tmp=$option -> getMain(); echo esc_attr( $tmp['video-carousel-left-arrow'] ); ?>"
 						class="large-text"></td>
 				</tr>
 				<tr>
@@ -97,7 +97,7 @@ $active_tab = isset( $_GET ['tab'] ) ? $_GET ['tab'] : 'general';
 					</td>
 					<td><input name="wpsve-main[video-carousel-right-arrow]"
 						type="text" id="wpsve-video-carousel-right-arrow"
-						value="<?php echo esc_attr(  $option -> getMain()['video-carousel-right-arrow'] ); ?>"
+						value="<?php $tmp=$option -> getMain(); echo esc_attr( $tmp['video-carousel-right-arrow'] ); ?>"
 						class="large-text"></td>
 				</tr>
 			</tbody>

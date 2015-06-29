@@ -8,12 +8,13 @@ if (! class_exists( '_WP_Editors' ))
 function mce_translation() {
 	$option = new Simple_Video_Embed_Option();
 	$main_option = $option->getMain();
+    $youtubeOption = $option -> getYoutube();
 	$strings = array (
 			
-			'googlePublicKeyV3' => $option -> getYoutube()['google-public-key-v3'],
-			'defaultVideoSliderHeight' => $option -> getMain()['video-carousel-height'],
-			'defaultColumnsNumber' => $option -> getMain()['thumb-columns-number'],
-			'defaultThumbTitle' => $option -> getMain()['thumb_title'],
+			'googlePublicKeyV3' => $youtubeOption['google-public-key-v3'],
+			'defaultVideoSliderHeight' => $main_option['video-carousel-height'],
+			'defaultColumnsNumber' => $main_option['thumb-columns-number'],
+			'defaultThumbTitle' => $main_option['thumb_title'],
 			
 			'typeLabel' => __( 'Type', 'simple-video-embed' ),
 			'videoLabel' => __( 'Video', 'simple-video-embed' ),
