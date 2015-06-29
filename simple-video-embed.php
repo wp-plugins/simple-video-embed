@@ -16,7 +16,7 @@
  * Plugin Name:       Simple Video Embed
  * Plugin URI:        https://github.com/Almalerik/wp-simple-video-embed
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Almalerik
  * Author URI:        https://github.com/Almalerik
  * License:           GPL-2.0+
