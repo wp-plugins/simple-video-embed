@@ -488,26 +488,9 @@ class Sve_Youtube {
 	 */
 	private function get_url_contents($url) {
 		
-		$result = wp_remote_get( $url, array( 'timeout' => 120, 'httpversion' => '1.1' ) );
-		
+		$result = wp_remote_get( $url, array( 'timeout' => 120 ) );
 		if ($result != '' && array_key_exists('body', $result)) {
 			$result = $result['body'];
-		} else {
-			if (function_exists( 'file_get_contents' )) {
-				$result = @file_get_contents( $url );
-			}
-			if ($result == '') {
-				$ch = curl_init();
-				$timeout = 30;
-				curl_setopt( $ch, CURLOPT_URL, $url );
-				curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-				curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1 );
-				curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
-				curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
-				curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, $timeout );
-				$result = curl_exec( $ch );
-				curl_close( $ch );
-			}		
 		}
 		return $result;
 	}
