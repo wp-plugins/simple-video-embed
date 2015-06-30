@@ -15,8 +15,8 @@
  * @wordpress-plugin
  * Plugin Name:       Simple Video Embed
  * Plugin URI:        https://github.com/Almalerik/wp-simple-video-embed
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.2
+ * Description:       A simple plugin to embed responsive video and video playlist to posts or articles with nice features.
+ * Version:           1.0.3
  * Author:            Almalerik
  * Author URI:        https://github.com/Almalerik
  * License:           GPL-2.0+
