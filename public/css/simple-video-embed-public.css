@@ -2,10 +2,31 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+.wpsve-info, .wpsve-success, .wpsve-warning, .wpsve-error {
+    margin: 10px 0px;
+    padding:12px;
+}
+.wpsve-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.wpsve-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.wpsve-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.wpsve-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+ 
 .wpsve-iframe {
 	border: 0;
 }
-
 
 .wpsve-video-container {
 	height: 0;
@@ -457,148 +478,148 @@
 	zoom: 1; /* For IE 6/7 */
 }
 /*  GRID OF EIGHT  */
-.wpsve-span_8_of_8 {
+.wpsve-column_8_of_8 {
 	width: 100%;
 }
 
-.wpsve-span_7_of_8 {
+.wpsve-column_7_of_8 {
 	width: 87.3%;
 }
 
-.wpsve-span_6_of_8 {
+.wpsve-column_6_of_8 {
 	width: 74.6%;
 }
 
-.wpsve-span_5_of_8 {
+.wpsve-column_5_of_8 {
 	width: 61.9%;
 }
 
-.wpsve-span_4_of_8 {
+.wpsve-column_4_of_8 {
 	width: 49.2%;
 }
 
-.wpsve-span_3_of_8 {
+.wpsve-column_3_of_8 {
 	width: 36.5%;
 }
 
-.wpsve-span_2_of_8 {
+.wpsve-column_2_of_8 {
 	width: 23.8%;
 }
 
-.wpsve-span_1_of_8 {
+.wpsve-column_1_of_8 {
 	width: 11.1%;
 }
 
 /*  GRID OF TWO  */
-.wpsve-span_2_of_2 {
+.wpsve-column_2_of_2 {
 	width: 100%;
 }
 
-.wpsve-span_1_of_2 {
+.wpsve-column_1_of_2 {
 	width: 49.2%;
 }
 
 /*  GRID OF THREE  */
-.wpsve-span_3_of_3 {
+.wpsve-column_3_of_3 {
 	width: 100%;
 }
 
-.wpsve-span_2_of_3 {
+.wpsve-column_2_of_3 {
 	width: 66.13%;
 }
 
-.wpsve-span_1_of_3 {
+.wpsve-column_1_of_3 {
 	width: 32.26%;
 }
 
 /*  GRID OF FOUR  */
-.wpsve-span_4_of_4 {
+.wpsve-column_4_of_4 {
 	width: 100%;
 }
 
-.wpsve-span_3_of_4 {
+.wpsve-column_3_of_4 {
 	width: 74.6%;
 }
 
-.wpsve-span_2_of_4 {
+.wpsve-column_2_of_4 {
 	width: 49.2%;
 }
 
-.wpsve-span_1_of_4 {
+.wpsve-column_1_of_4 {
 	width: 23.8%;
 }
 
 /*  GRID OF FIVE  */
-.wpsve-span_5_of_5 {
+.wpsve-column_5_of_5 {
 	width: 100%;
 }
 
-.wpsve-span_4_of_5 {
+.wpsve-column_4_of_5 {
 	width: 79.68%;
 }
 
-.wpsve-span_3_of_5 {
+.wpsve-column_3_of_5 {
 	width: 59.36%;
 }
 
-.wpsve-span_2_of_5 {
+.wpsve-column_2_of_5 {
 	width: 39.04%;
 }
 
-.wpsve-span_1_of_5 {
+.wpsve-column_1_of_5 {
 	width: 18.72%;
 }
 
 /*  GRID OF SIX  */
-.wpsve-span_6_of_6 {
+.wpsve-column_6_of_6 {
 	width: 100%;
 }
 
-.wpsve-span_5_of_6 {
+.wpsve-column_5_of_6 {
 	width: 83.06%;
 }
 
-.wpsve-span_4_of_6 {
+.wpsve-column_4_of_6 {
 	width: 66.13%;
 }
 
-.wpsve-span_3_of_6 {
+.wpsve-column_3_of_6 {
 	width: 49.2%;
 }
 
-.wpsve-span_2_of_6 {
+.wpsve-column_2_of_6 {
 	width: 32.26%;
 }
 
-.wpsve-span_1_of_6 {
+.wpsve-column_1_of_6 {
 	width: 15.33%;
 }
 /*  GRID OF SEVEN  */
-.wpsve-span_7_of_7 {
+.wpsve-column_7_of_7 {
 	width: 100%;
 }
 
-.wpsve-span_6_of_7 {
+.wpsve-column_6_of_7 {
 	width: 85.48%;
 }
 
-.wpsve-span_5_of_7 {
+.wpsve-column_5_of_7 {
 	width: 70.97%;
 }
 
-.wpsve-span_4_of_7 {
+.wpsve-column_4_of_7 {
 	width: 56.45%;
 }
 
-.wpsve-span_3_of_7 {
+.wpsve-column_3_of_7 {
 	width: 41.94%;
 }
 
-.wpsve-span_2_of_7 {
+.wpsve-column_2_of_7 {
 	width: 27.42%;
 }
 
-.wpsve-span_1_of_7 {
+.wpsve-column_1_of_7 {
 	width: 12.91%;
 }
 
@@ -611,26 +632,26 @@
 	.wpsve-col-4, .wpsve-col-5, .wpsve-col-6, .wpsve-col-7, .wpsve-col-8 {
 		margin: 1% 0 1% 0%;
 	}
-	.wpsve-span_1_of_8, .wpsve-span_2_of_8, .wpsve-span_3_of_8,
-		.wpsve-span_4_of_8, .wpsve-span_5_of_8, .wpsve-span_6_of_8,
-		.wpsve-span_7_of_8, .wpsve-span_8_of_8 {
+	.wpsve-column_1_of_8, .wpsve-column_2_of_8, .wpsve-column_3_of_8,
+		.wpsve-column_4_of_8, .wpsve-column_5_of_8, .wpsve-column_6_of_8,
+		.wpsve-column_7_of_8, .wpsve-column_8_of_8 {
 		width: 100%;
 	}
-	.wpsve-span_1_of_4, .wpsve-span_2_of_4, .wpsve-span_3_of_4,
-		.wpsve-span_4_of_4 {
+	.wpsve-column_1_of_4, .wpsve-column_2_of_4, .wpsve-column_3_of_4,
+		.wpsve-column_4_of_4 {
 		width: 100%;
 	}
-	.wpsve-span_1_of_5, .wpsve-span_2_of_5, .wpsve-span_3_of_5,
-		.wpsve-span_4_of_5, .wpsve-span_5_of_5 {
+	.wpsve-column_1_of_5, .wpsve-column_2_of_5, .wpsve-column_3_of_5,
+		.wpsve-column_4_of_5, .wpsve-column_5_of_5 {
 		width: 100%;
 	}
-	.wpsve-span_1_of_6, .wpsve-span_2_of_6, .wpsve-span_3_of_6,
-		.wpsve-span_4_of_6, .wpsve-span_5_of_6, .wpsve-span_6_of_6 {
+	.wpsve-column_1_of_6, .wpsve-column_2_of_6, .wpsve-column_3_of_6,
+		.wpsve-column_4_of_6, .wpsve-column_5_of_6, .wpsve-column_6_of_6 {
 		width: 100%;
 	}
-	.wpsve-span_1_of_7, .wpsve-span_2_of_7, .wpsve-span_3_of_7,
-		.wpsve-span_4_of_7, .wpsve-span_5_of_7, .wpsve-span_6_of_7,
-		.wpsve-span_7_of_7 {
+	.wpsve-column_1_of_7, .wpsve-column_2_of_7, .wpsve-column_3_of_7,
+		.wpsve-column_4_of_7, .wpsve-column_5_of_7, .wpsve-column_6_of_7,
+		.wpsve-column_7_of_7 {
 		width: 100%;
 	}
 }
