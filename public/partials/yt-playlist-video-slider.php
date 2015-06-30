@@ -35,6 +35,16 @@
 	?>
 		</div>
 	</div>
+    <?php
+    if (array_key_exists( 'error', $this->api_data )) {
+    $api_data = $this->api_data;
+    ?>
+    <div id="message" class="wpsve-error">
+    <b>Google Api Error:</b> <?php echo $api_data['error']['message'];?>
+    </div>
+    <?php
+    }
+    ?>	
 	<script>
 		jQuery(document).ready(function() {
 			jQuery(".owl-carousel-{playerapiid}").owlCarousel({

@@ -22,7 +22,7 @@
 
 <?php
 if (array_key_exists( 'items', $this->api_data )) {
-	$col_class = "wpsve-span_1_of_" . $this->template_params ['thumb-columns-number'] . " wpsve-col-" . $this->template_params ['thumb-columns-number'];
+	$col_class = "wpsve-column_1_of_" . $this->template_params ['thumb-columns-number'] . " wpsve-col-" . $this->template_params ['thumb-columns-number'];
 	// Chunk json array
 	$col_data = array_chunk( $this->api_data ['items'], $this->template_params ['thumb-columns-number'] );
 	$i = 0;
@@ -56,6 +56,15 @@ if (array_key_exists( 'items', $this->api_data )) {
 	</div>
 	<?php
 	}
+}
+
+if (array_key_exists( 'error', $this->api_data )) {
+    $api_data = $this->api_data;
+?>
+<div id="message" class="wpsve-error">
+<b>Google Api Error:</b> <?php echo $api_data['error']['message'];?>
+</div>
+<?php
 }
 ?>	
 </div>
