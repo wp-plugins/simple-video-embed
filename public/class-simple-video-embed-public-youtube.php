@@ -520,7 +520,7 @@ class Sve_Youtube {
 		$json_data = $this->get_url_contents( $apiUrl );
 		$result = json_decode( $json_data, true );
 		if ($getAll && isset( $result ["nextPageToken"] )) {
-			$json = $this->playlistItemsList( $this->id, $part, null, $result ["nextPageToken"] );
+			$json = $this->playlistItemsList( $part, null, $result ["nextPageToken"] );
 			if (isset( $json ["items"] )) {
 				$result ["items"] = array_merge( $result ["items"], $json ["items"] );
 			}
