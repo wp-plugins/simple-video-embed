@@ -3,8 +3,8 @@ Contributors: almalerik
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5Z25CMCNEUDN
 Tags: video, video player, video gallery, shortcode, embed, mobile, responsive
 Requires at least: 4.0
-Tested up to: 4.2.2
-Stable tag: 1.0.3
+Tested up to: 4.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,10 @@ Upcoming developments will support other video sources like Vimeo.
 4. Playlist with thumb carousel
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix bug on video thumbnails view when more than 10.
+* Fix js bug on slider with thumb.
 
 = 1.0.3 =
 * Show Google API error.
