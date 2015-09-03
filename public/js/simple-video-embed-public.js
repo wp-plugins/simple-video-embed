@@ -105,5 +105,5 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerStateChange(event) {
-	jQuery('.owl-carousel', event.target.getIframe().closest('.wpsve-youtube')).trigger('to.owl.carousel', [ event.target.getPlaylistIndex(), 300 ]);
+	jQuery('.owl-carousel', jQuery(event.target.getIframe()).closest('.wpsve-youtube')).trigger('to.owl.carousel', [ event.target.getPlaylistIndex(), 300 ]);
 }
